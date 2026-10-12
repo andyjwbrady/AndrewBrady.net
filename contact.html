@@ -91,7 +91,7 @@ details.acc[open] .sign::before{content:'\2212'}
 <div style="flex: 1 1 300px; min-width: 0; padding-top: 20px">
 <div style="background: var(--surface); border-radius: 28px; padding: 32px; margin-bottom: 20px">
 <p style="font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; margin: 0 0 8px; color: var(--accent)">Email</p>
-<a href="mailto:andy@ajwb.co.uk" style="font-family: 'Bricolage Grotesque', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none">andy@ajwb.co.uk</a>
+<a href="mailto:andrew@ajwb.co.uk" style="font-family: 'Bricolage Grotesque', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none">andrew@ajwb.co.uk</a>
 <p style="font-size: 16px; line-height: 1.6; margin: 12px 0 0; color: var(--muted)">Based in Shropshire, working with people everywhere.</p>
 </div>
 <div style="background: var(--surface); border-radius: 28px; padding: 32px">
@@ -128,9 +128,9 @@ document.getElementById('contact-form').addEventListener('submit', function (e) 
   fetch(form.action, { method: 'POST', body: new FormData(form), headers: { 'Accept': 'application/json' } })
     .then(function (res) {
       if (res.ok) { form.hidden = true; document.getElementById('form-confirmation').hidden = false; }
-      else { btn.textContent = 'Something went wrong – please email andy@ajwb.co.uk'; btn.disabled = false; }
+      else { btn.textContent = 'Something went wrong – please email andrew@ajwb.co.uk'; btn.disabled = false; }
     })
-    .catch(function () { btn.textContent = 'Something went wrong – please email andy@ajwb.co.uk'; btn.disabled = false; });
+    .catch(function () { btn.textContent = 'Something went wrong – please email andrew@ajwb.co.uk'; btn.disabled = false; });
 });
 </script>
 </body>
